@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Contact</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="index.html">My Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-title section-padding">
+      <p class="eyebrow">Contact</p>
+      <h1>Let us connect.</h1>
+      <p>Use the form below to send a message or request more information.</p>
+    </section>
+
+    <section class="section-padding contact-layout" aria-labelledby="contact-title">
+      <form class="contact-form" action="#" method="post">
+        <h2 id="contact-title">Send a Message</h2>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Message subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+
+        <button class="button" type="submit">Submit</button>
+      </form>
+
+      <aside class="info-panel" aria-label="Contact information">
+        <h2>Contact Details</h2>
+        <p>Email: student@example.com</p>
+        <p>Location: Philippines</p>
+        <p>Available for school projects, portfolio reviews, and web design practice.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
